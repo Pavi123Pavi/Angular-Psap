@@ -1,0 +1,16 @@
+[
+    {
+        "slotid": "101",
+        "locationid": 111,
+        "slotno": "Floor 1",
+        "status": 0,
+        "duration": 2
+    },
+    {
+        "slotid": "102",
+        "locationid": 112,
+        "slotno": "Floor 2",
+        "status": 0,
+        "duration": 5
+    }
+]

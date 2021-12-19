@@ -1,0 +1,12 @@
+[
+    {
+        "vehicleid":"1",
+        "vehicle_type":"Two Wheeler",
+        "cost":"135"
+    },
+    {
+        "vehicleid":"2",
+        "vehicle_type":"Four Wheeler",
+        "cost":"135"
+    }
+]

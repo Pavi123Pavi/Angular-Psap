@@ -1,0 +1,54 @@
+[
+    {
+        "locationid": 100,
+        "location_name": "Ashoknagar",
+        "area": "Area 1",
+        "slots": 1
+    },
+    {
+        "locationid": 101,
+        "location_name": "Barasat",
+        "area": "Area 2",
+        "slots": 1
+    },
+    {
+        "locationid": 102,
+        "location_name": "Newtown",
+        "area": "Area 3",
+        "slots": 1
+    },
+    {
+        "locationid": 103,
+        "location_name": "Rajarhat",
+        "area": "Area 4",
+        "slots": 1
+    },
+    {
+        "locationid": 104,
+        "location_name": "Kolkata",
+        "area": "Area 5",
+        "slots": 1
+    },
+    {
+        "locationid": 105,
+        "location_name": "Dum Dum",
+        "area": "Area 6",
+        "slots": 1
+    },
+    {
+        "locationid": 106,
+        "location_name": "Garia",
+        "area": "Area 7",
+        "slots": 1
+    },{
+        "locationid": 107,
+        "location_name": "Sealdah",
+        "area": "Area 8",
+        "slots": 1
+    },{
+        "locationid": 108,
+        "location_name": "Park Street",
+        "area": "Area 9",
+        "slots": 1
+    }
+]
