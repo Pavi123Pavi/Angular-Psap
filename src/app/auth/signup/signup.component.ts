@@ -40,7 +40,7 @@ export class SignupComponent implements OnInit {
       //   alert("User Already Exist"); 
       // }
     // }))
-  }
+
 
   // storeLogin(email){
   //   sessionStorage.setItem("email", email); 
@@ -52,21 +52,20 @@ export class SignupComponent implements OnInit {
   //   }
   // }
 
-  // confirmPasswordCheck(control: AbstractControl){
-  //   if (control && control.value !== null || control.value != undefined){
-  //     const cnfPassword = control.value;
-  //     const passControl = control.root.get('password')
+  confirmPasswordCheck(control: AbstractControl){
+    if (control && control.value !== null || control.value != undefined){
+      const cnfPassword = control.value;
+      const passControl = control.root.get('password')
 
-  //     if (passControl){
-  //       const passValue = passControl.value;
-  //       if (passValue !== cnfPassword){
-  //         return {
-  //           isError: true
-  //         }
-  //       }
-  //     }
-  //   } 
-  //   return null
-  // }
-
-// }
+      if (passControl){
+        const passValue = passControl.value;
+        if (passValue !== cnfPassword){
+          return {
+            isError: true
+          }
+        }
+      }
+    } 
+    return null
+  }
+}
